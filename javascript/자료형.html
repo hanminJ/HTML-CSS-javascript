@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script> 
+        //숫자형(정수,실수) number() ,bigint:암호화
+        var a = 10;
+        var pi =3.14;
+        
+        //문자열 '' 또는 " " 사용가능
+        var srt='1234';
+        var str2="냐옹";
+        //true or false로 반환되는 자료형
+        var bool=3>2;
+        var bool2=2<3;
+        document.write(bool+'<br>');
+        document.write(typeof 'k');
+        //NULL값과 undefined 용도가 약간 다름 하지만 비슷하게 생각하자
+        
+
+        //연산은 이전 C언어와 같음
+        //자료형 확인은 typeof XX로 확인
+        //result = prompt("문자열을 입력하세요",'미리입력할 값');
+        //document.write('<br>입력한 문자열은 : '+result);
+
+        //age = prompt("나이를 입력하세요",'나이');
+        //document.write('<br>당신의 나이는 : '+age);
+
+        //컨펌대화상자
+        var 냐옹= confirm('당신은 고양이인가요?');
+        
+        if(냐옹 == true)
+        {
+            alert('당신은 고양이 입니다!');
+        }
+        else alert('사람이 아니군요');
+        
+        
+        //형변환 number()
+        document.write("<br>"+typeof str+"<br>");
+        str3=number(str);
+        document.write(typeof str3);
+
+
+
+    </script>
+</body>
+</html>
